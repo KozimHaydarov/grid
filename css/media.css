@@ -1,0 +1,98 @@
+@media (max-width:990px) {
+    .navbar__collection{
+        display: none;
+    }
+    .hero__wrapper{
+        flex-direction: column-reverse;
+        padding: 50px 0 80px;
+    }
+    .hero__text,
+    .hero__image{
+        width: 100%;
+    }
+    .hero__image{
+        display: flex;
+        justify-content: center;
+    }
+    .category__wrapper{
+        grid-template-columns:repeat(2,1fr) ;
+    }
+    .category__wrapper{
+        grid-template-columns:1fr;
+    }
+    .div{
+        margin: 0 auto;
+        grid-template-columns:1fr;
+    }
+    .wraper{
+        margin: 0 auto;
+    }
+ 
+}
+
+@media (max-width:600px) {
+    .category__wrapper{
+        grid-template-columns:1fr;
+    }
+    .div{
+        grid-template-columns:1fr;
+    }
+    .wraper__card{
+        grid-template-columns:1fr;
+    
+    }
+    .wraper{
+        margin: 0 auto;
+    }
+
+
+
+
+}
+@media (max-width:600px) {
+    .hero__wrapper{
+        flex-direction: column-reverse;
+        padding: 50px 0 80px;
+    }
+    .hero__text,
+    .hero__image{
+        width: 100%;
+    }
+    .hero__image{
+        display: flex;
+        justify-content: center;
+    }
+    .category__wrapper{
+        grid-template-columns:repeat(2,1fr) ;
+    }
+    .category__wrapper{
+        grid-template-columns:1fr;
+    }
+    .div{
+        margin: 0 auto;
+        grid-template-columns:1fr;
+    }
+    .wraper{
+        margin: 0 auto;
+    }
+    
+    .biograph{
+    width: 100%;
+    height: 200px;
+    margin-top: 130px;
+    display: grid;
+    grid-gap: 47px;
+    grid-template-columns: 1fr;
+    }
+    
+.wrapper__bottom{
+    margin-top: 290px;
+    height: 680px;
+    display: block;
+    background: #F6F6F6;
+    border: 5px solid #f6f6f6;
+}
+ .battom__img{
+    margin-left: 100px;
+ }
+}
